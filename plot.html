@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>plotly chart</title>
+<script src="https://cdn.plot.ly/plotly-1.41.3.min.js"></script>
+</head>
+<body>
+<div id="chart"></div>
+<script>
+(function () {
+  var data0 = {"x":["2018-07-01 00:00:00","2018-09-01 00:00:00","2018-10-01 00:00:00","2018-11-01 00:00:00","2018-12-01 00:00:00","2019-01-01 00:00:00"],"y":[42.0,37805.0,43012.0,36642.0,47744.0,81145.0],"type":"scatter"};
+
+  var data = [data0];
+  var layout = {};
+
+  Plotly.plot('chart', data, layout);
+})();
+</script>
+</body>
+</html>
+       
